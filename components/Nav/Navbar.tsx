@@ -12,6 +12,7 @@ type Link = {
   label: string;
   href: string;
   id: string;
+  className: string;
 };
 
 const Navbar: React.FC<{}> = () => {
@@ -28,7 +29,7 @@ const Navbar: React.FC<{}> = () => {
         <div className={styles.navbarArea}>
           <ul className={styles.navigation}>
             {links.map((link: Link) => (
-              <li className={styles.navigationLink} key={link.id}><a href={link.href}>{link.prefix}
+              <li className={styles[link.className]} key={link.id}><a href={link.href}>{link.prefix}
                     {link.label}</a>
                   
               </li>

@@ -42,14 +42,39 @@ padding: 20px 50px;
 
 .navigation {
   display: flex;
-  justify-content: flex-start;
   list-style-type: none;
+  justify-content: space-between;
   flex-wrap: wrap;
   padding: 0;
-  margin: 0;
 }
 .navigationLink {
   display: flex;
   justify-content: space-between;
   margin: 12px;
 }
+
+
+@media only screen and (max-width: 500px) {
+   .navbarWrapper {
+ padding:0;
+    background: lightblue;
+  }
+  .navigation {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+ 
+  }
+  .navigationLink  {
+    display: flex;
+    justify-content: space-between;
+    padding:0;
+  }
+  .navbarArea a {
+    font-size: 8px;
+    margin: 4px;
+  }
+ 
+}
+
