@@ -25,7 +25,8 @@ const Navbar: React.FC<{}> = () => {
           <ul className={styles.className}>
             {links.map((link: Link) => (
               <li key={link.id}><a href={link.href}>{link.prefix}
-                {link.label}</a>
+                    {link.label}</a>
+                    {link.href}
               </li>
             ))}
           </ul>

@@ -1,23 +1,16 @@
-import type { NextPage } from 'next'
 import Head from "next/head";
-import styles from "../styles/MyBuisness.css"
+import styles from "../styles/MyBuisness.module.css";
 
-const myBuisness: NextPage = () => {
+const MyBuisness = () => {
   return (
     <>
-     <Head>
-        <title>myBuisness</title>
-        <meta name="keywords" content="error" />
+      <Head>
+        <title>MyBuisness</title>
+        <meta name="keywords" content="MyBuisness" />
       </Head>
-    <div className={styles.container}>
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-        <h1>Hello</h1>
-      myBuisness
-        </h1>
-      </main>
-    </div></>
-  )
-}
+      <h1 className={styles.title}>MyBuisness</h1>
+    </>
+  );
+};
 
-export default myBuisness
+export default MyBuisness;
