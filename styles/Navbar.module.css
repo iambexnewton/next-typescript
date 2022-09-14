@@ -1,37 +1,55 @@
 
+.navTop {
+  background: white;
+}
 .navbarWrapper {
-    margin: 10px auto 80px;
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    border-bottom: 1px solid #ddd;
-  }
-  .navbarWrapper {
-    padding: 40px;
-    background: #ffd400;
-  }
-  
-  .navbarArea a {
-    font-weight: bold;
-    color: #2c3e50;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 5px;
-   
-  }
-  .navbarArea a:hover {
-    cursor: pointer;
-    color: white;
-    background: red;
-   
-  }
-  .navbarArea a:active {
-    color: white;
-    background: red;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 1px solid #ddd;
+}
+.navbarWrapper {
+  padding: 16px 8px 8px;
+  background: #ffd400;
+}
 
-  .logo {
-    display: flex;
-    justify-content: flex-start;
-  }
+.navigation {
+  font-weight: bold;
+  color: #2c3e50;
+  text-decoration: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+
+}
+
+.navbarArea a:hover {
+  cursor: pointer;
+  color: white;
+  background: red;
+}
+.navbarArea a:active {
+  color: white;
+  background: red;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+padding: 20px 50px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+.navigationLink {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px;
+}

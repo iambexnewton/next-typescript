@@ -17,16 +17,20 @@ type Link = {
 const Navbar: React.FC<{}> = () => {
   return (
     <>
-      <nav className={styles.navbarWrapper}>
+      
+<div className={styles.navTop}> 
         <div className={styles.logo}>
           <Placeholder />
-        </div>
+      </div>
+      </div>
+
+<nav className={styles.navbarWrapper}>
         <div className={styles.navbarArea}>
-          <ul className={styles.className}>
+          <ul className={styles.navigation}>
             {links.map((link: Link) => (
-              <li key={link.id}><a href={link.href}>{link.prefix}
+              <li className={styles.navigationLink} key={link.id}><a href={link.href}>{link.prefix}
                     {link.label}</a>
-                    {link.href}
+                  
               </li>
             ))}
           </ul>
