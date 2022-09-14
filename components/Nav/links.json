@@ -1,0 +1,10 @@
+{
+  "links": [
+  { "prefix": "My", "label": "BUISNESS", "href": "/MyBuisness", "id": "1", "className": "buisness"}, 
+  { "prefix": "My", "label": "ACCOUNT", "href": "/MyAccount", "id": "2", "className": "account" },
+  { "prefix": "My", "label": "QUOTES", "href": "/MyQuotes", "id": "3", "className": "quotes" },
+  { "prefix": "My", "label": "ORDERS", "href": "/MyOrders", "id": "4", "className": "orders" },
+  { "prefix": "My", "label": "PRODUCTS", "href": "/MyProducts", "id": "5", "className": "products"},
+  { "prefix": "My", "label": "CONTACTS", "href": "/MyContacts", "id": "6", "className": "contacts" },
+  { "prefix": "My", "label": "STORES", "href": "/MyStores", "id": "7", "className": "stores" }]
+} 

@@ -1,10 +1,11 @@
-import type { NextPage } from 'next'
+
 import Head from 'next/head'
 import Footer from '../components/Footer'
 import Link from "next/link";
 import styles from '../styles/Home.module.css'
+import Navbar from '../components/Nav/Navbar';
 
-const Home: NextPage = () => {
+const Home = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -12,7 +13,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Home" />
       
       </Head>
-
+<Navbar />
       <main className={styles.main}>
       <h1 className={styles.title}>Home page</h1>
 
